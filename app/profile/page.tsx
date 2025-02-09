@@ -31,9 +31,9 @@ export default function Profile() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">小山事務所について</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">K&Co.について</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            小山事務所は、営業代行とビジネスコーチングを通じて、企業の成長と発展をサポートする事務所です。
+            K&Co.は、営業代行とビジネスコーチングを通じて、企業の成長と発展をサポートする事務所です。
             豊富な経験と実績を持つ専門家が、お客様のビジネスの成功をサポートいたします。
           </p>
         </div>
