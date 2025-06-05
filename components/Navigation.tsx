@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation'
 const navigation = [
   { name: 'ホーム', href: '/' },
   { name: 'サービス', href: '/services' },
-  { name: 'プロフィール', href: '/profile' },
+  { name: '会社概要', href: '/profile' },
   { name: 'お問い合わせ', href: '/contact' },
 ]
 
@@ -29,7 +29,7 @@ export default function Navigation() {
               <div className="flex">
                 <div className="flex flex-shrink-0 items-center">
                   <Link href="/" className="text-xl font-bold text-gray-900">
-                    K&Co.
+                    SEA.
                   </Link>
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">

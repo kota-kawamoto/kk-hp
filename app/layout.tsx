@@ -7,8 +7,8 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'K&Co.',
-  description: '営業代行とコーチング事業を提供するK&Co.のウェブサイトです。',
+  title: '株式会社SEA',
+  description: '',
 }
 
 export default function RootLayout({
@@ -31,12 +31,12 @@ export default function RootLayout({
                 サービス
               </Link>
               <Link href="/profile" className="text-gray-600 hover:text-gray-900">
-                プロフィール
+                会社概要
               </Link>
             </div>
             <div className="mt-8 md:order-1 md:mt-0">
               <p className="text-center text-xs leading-5 text-gray-500">
-                &copy; {new Date().getFullYear()} K&Co. All rights reserved.
+                &copy; {new Date().getFullYear()} SEA. All rights reserved.
               </p>
             </div>
           </div>
